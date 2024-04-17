@@ -9,8 +9,8 @@
 - **Description:** Register a new sensor reading.
 - **Request Body:**
     - `sensorId` (String, required): Unique identifier of the sensor.
-    - `timestamp` (String, required): Timestamp of the sensor reading in ISO 8601 format (e.g., `2024-04-17T12:00:00`).
-    - `temperature` (double, required): Temperature value in Celsius.
+    - `timestamp` (String): Timestamp of the sensor reading in ISO 8601 format (e.g., `2024-04-17T12:00:00`).
+    - `temperature` (double): Temperature value in Celsius.
 
 ### Get Average Metric Value for All Sensors
 
